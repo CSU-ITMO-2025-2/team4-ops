@@ -1,0 +1,6 @@
+apiVersion: v2
+name: service-hub
+description: A Helm chart to deploy the service-hub demo (api-gateway, ticket-service, notification-service) with Kafka, Zookeeper, and PostgreSQL.
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
