@@ -30,12 +30,6 @@ kafka:
     enabled: false
     size: 5Gi
 
-secrets:
-  name: service-hub-secrets
-  create: false
-  jwtSecret: "devsecret"
-  dbPassword: "Hr2nTdC8#y4Mz1vG"
-
 apiGateway:
   image:
     repository: ghcr.io/kseniamuhina/api-gateway
